@@ -6,5 +6,5 @@ fullName.textContent = selectorName;
 
 
 let nameFunction = document.querySelector('#name-function');
-let selectorNameFunction = 'Autores Brasileiros Independentes';
+let selectorNameFunction = 'Escritores Brasileiros Independentes';
 nameFunction.textContent = selectorNameFunction;
