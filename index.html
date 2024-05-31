@@ -73,8 +73,8 @@
         <section class='social-media'>
             <a href='https://www.instagram.com/coletivo.litera/' target='_blank'><img
                     src='./static/img/logo-instagram.png' alt='Logo Instagram' width='50px' height='50px'></a>
-            <a href='https://x.com/coletivolitera/' target='_blank'><img src='./static/img/logo-twitter.png' alt='Logo X'
-                    width='50px' height='50px'></a>
+            <a href='https://x.com/coletivolitera/' target='_blank'><img src='./static/img/logo-twitter.png'
+                    alt='Logo X' width='50px' height='50px'></a>
         </section>
 
     </header>
@@ -102,27 +102,35 @@
                     <p class='col-md-12 fs-4 text-center'>Estamos espalhados por todo o Brasil, valorizamos a
                         diversidade e respeitamos as diferenças. Somos um grupo sem fins
                         lucrativos, que busca ser um ambiente de apoio a literatura independente LGBTQIA +.</p>
-                    <a href='./templates/contato.html' target='_self'><button class='btn btn-outline-light btn-lg' type='button'>Saiba Mais</button></a>
+                    <a href='./templates/contato.html' target='_self'><button class='btn btn-outline-light btn-lg'
+                            type='button'>Saiba Mais</button></a>
                 </div>
             </div>
 
             <div class='row align-items-md-stretch'>
-                <div class='col-md-6'>
+                <section class='col-md-6 text-center'>
                     <div class='h-100 p-5 text-bg-dark rounded-3'>
                         <h2>Publicações</h2>
-                        <img src='./static/img/pub01.png' alt='' width='220px' height='220px' class='p-2'>
-                        <img src='./static/img/pub02.png' alt='' width='220px' height='220px' class='p-2'>
-                        <a href='./templates/publicacoes.html' target='_self'><button class='btn btn-outline-light' type='button'>Saiba Mais</button></a>
+                        <section class='row justify-content-center'>
+                            <img src='./static/img/pub01.png' alt='' width='220px' height='220px' class='col-md-6 p-2'>
+                            <img src='./static/img/pub02.png' alt='' width='220px' height='220px' class='col-md-6 p-2'>
+                        </section>
+                        <a href='./templates/publicacoes.html' target='_self'><button class='btn btn-outline-light mt-3'
+                                type='button'>Saiba Mais</button></a>
                     </div>
-                </div>
-                <div class='col-md-6'>
+                </section>
+                <section class='col-md-6 text-center'>
                     <div class='h-100 p-5 bg-body-tertiary border rounded-3'>
                         <h2>Idealizadora</h2>
-                        <img src='./static/img/logo-coletivo-litera.png' alt='' width='200px' height='200px'>
-                        <p>Sobre Priscilla Bacellar.</p>
-                        <a href='./templates/escritores/priscilla_bacellar.html' target='_self'><button class='btn btn-outline-light' type='button'>Saiba Mais</button></a>
+                        <img src='./media/escritores/priscilla_bacellar/priscilla_bacellar.png' alt='' width='200px'
+                            height='200px'>
+                        <p id='priscillabacellar'>Priscilla Bacellar</p>
+                        <a href='./templates/escritores/priscilla_bacellar.html' target='_self'><button class='btn btn-light m-2'
+                                type='button'>Sobre Priscilla</button></a>
+                        <a href='./templates/escritores.html' target='_self'><button class='btn btn-light m-2'
+                                type='button'>Escritores</button></a>
                     </div>
-                </div>
+                </section>
             </div>
 
             <footer class='pt-3 mt-4 text-body-secondary border-top'>
