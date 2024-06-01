@@ -18,6 +18,7 @@
 
     <link rel='stylesheet' href='./static/css/responsive.css'>
     <link rel='stylesheet' href='./static/css/header.css'>
+    <link rel='stylesheet' href='./static/css/styles.css'>
 
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css' />
 
@@ -79,71 +80,98 @@
 
     </header>
 
-    <main class='mt-5'>
-        <div class='container py-4'>
-            <header class='pb-3 mb-4 border-bottom'>
-                <a href='#' class='d-flex align-items-center text-body-emphasis text-decoration-none'>
-                    <img src='./static/img/logo-coletivo-litera.png' alt='Logo Coletivo Litera' width='50px'
-                        height='50px'>
-                    <span class='px-3 fs-4 text-white'>Um pouco sobre nós</span>
-                </a>
-            </header>
+    <main class='container py-4 mt-5'>
 
-            <div class='p-2 mb-4 bg-body-tertiary rounded-3'>
-                <div class='container-fluid py-5'>
-                    <h1 class='display-5 fw-bold mb-4'>O Coletivo Litera</h1>
-                    <p class='col-md-12 fs-4 text-center'>O Coletivo Litera foi fundado em 2020 e reune autores
-                        independentes LGBTQIA+, sendo um espaço de acolhimento, apoio e troca de experiências.</p>
-                    <p class='col-md-12 fs-4 text-center'>Divulgamos projetos, eventos literários, concursos, trocamos
-                        ideias e dicas. Apoiamos nossos autores, divulgando seus
-                        livros, incentivando a escrita e o lançamento de novos projetos.</p>
-                    <p class='col-md-12 fs-4 text-center'>Lançamos nossa primeira antologia em 2021 (Edifício Litera),
-                        com contos de 9 autores do nosso Coletivo. E temos diversos projetos por vir.</p>
-                    <p class='col-md-12 fs-4 text-center'>Estamos espalhados por todo o Brasil, valorizamos a
-                        diversidade e respeitamos as diferenças. Somos um grupo sem fins
-                        lucrativos, que busca ser um ambiente de apoio a literatura independente LGBTQIA +.</p>
-                    <a href='./templates/contato.html' target='_self'><button class='btn btn-outline-light btn-lg'
-                            type='button'>Saiba Mais</button></a>
+        <section class='pb-3 mb-4 border-bottom'>
+            <a href='#' class='d-flex align-items-center text-body-emphasis text-decoration-none'>
+                <img src='./static/img/logo-coletivo-litera.png' alt='Logo Coletivo Litera' width='50px' height='50px'>
+                <span class='px-3 fs-4 text-black'>Um pouco sobre nós</span>
+            </a>
+        </section>
+
+        <section class='p-2 mb-4 bg-body-tertiary rounded-3'>
+            <div class='container-fluid py-2'>
+                <h1 class='display-6 fw-bold mb-4'>O Coletivo Litera</h1>
+                <p id='texto-geral' class='col-md-12 fs-4 text-center'></p>
+                <a href='./templates/contato.html' target='_self'><button class='btn btn-dark btn-lg'
+                        type='button'>Saiba Mais</button></a>
+            </div>
+        </section>
+
+        <section class='row align-items-md-stretch'>
+
+            <section class='col-md-6 text-center'>
+                <div class='h-100 px-5 py-4 text-bg-success rounded-3 shadow-lg'>
+                    <h2 class='py-3'>Publicações</h2>
+                    <section class='row justify-content-center'>
+                        <img src='./static/img/pub01.png' alt='' width='200px' height='200px' class='col-md-6 p-2'>
+                        <img src='./static/img/pub02.png' alt='' width='200px' height='200px' class='col-md-6 p-2'>
+                    </section>
+                    <a href='./templates/publicacoes.html' target='_self'><button class='btn btn-outline-light mt-3'
+                            type='button'>+</button></a>
                 </div>
-            </div>
+            </section>
 
-            <div class='row align-items-md-stretch'>
-                <section class='col-md-6 text-center'>
-                    <div class='h-100 p-5 text-bg-dark rounded-3'>
-                        <h2>Publicações</h2>
-                        <section class='row justify-content-center'>
-                            <img src='./static/img/pub01.png' alt='' width='220px' height='220px' class='col-md-6 p-2'>
-                            <img src='./static/img/pub02.png' alt='' width='220px' height='220px' class='col-md-6 p-2'>
-                        </section>
-                        <a href='./templates/publicacoes.html' target='_self'><button class='btn btn-outline-light mt-3'
-                                type='button'>Saiba Mais</button></a>
-                    </div>
-                </section>
-                <section class='col-md-6 text-center'>
-                    <div class='h-100 p-5 bg-body-tertiary border rounded-3'>
-                        <h2>Idealizadora</h2>
-                        <img src='./media/escritores/priscilla_bacellar/priscilla_bacellar.png' alt='' width='200px'
-                            height='200px'>
-                        <p id='priscillabacellar'>Priscilla Bacellar</p>
-                        <a href='./templates/escritores/priscilla_bacellar.html' target='_self'><button class='btn btn-light m-2'
-                                type='button'>Sobre Priscilla</button></a>
-                        <a href='./templates/escritores.html' target='_self'><button class='btn btn-light m-2'
-                                type='button'>Escritores</button></a>
-                    </div>
-                </section>
-            </div>
+            <section class='col-md-3 text-center'>
+                <div class='h-100 px-2 py-4 text-bg-dark rounded-3 shadow-lg'>
+                    <h2 class='py-3'>Idealizadora</h2>
+                    <img src='./media/escritores/priscilla_bacellar/priscilla_bacellar.png' alt='' width='200px'
+                        height='200px'>
+                    <p id='priscillabacellar'>Priscilla Bacellar</p>
+                    <a href='./templates/escritores/priscilla_bacellar.html' target='_self'><button
+                            class='btn btn-light m-2' type='button'>Sobre Priscilla</button></a>
+                </div>
+            </section>
 
-            <footer class='pt-3 mt-4 text-body-secondary border-top'>
-                &copy; 2024
-            </footer>
-        </div>
+            <section class='col-md-3 text-center'>
+                <div class='h-100 px-2 py-4 text-bg-dark rounded-3 shadow-lg'>
+                    <h2 class='py-3'>Equipe</h2>
+                    <img src='./static/img/logo-coletivo-litera.png' alt='' width='200px' height='200px'>
+                    <p id='priscillabacellar'>Conheça nossa equipe</p>
+                    <a href='#' target='_self'><button class='btn btn-light m-2' type='button'>Equipe</button></a>
+                </div>
+            </section>
+
+        </section>
+
     </main>
 
-
-    <footer class='text-center my-5'>
+    <section class='text-center my-5'>
         <a href='#'>
             <button class='btn btn-sm btn-info px-5'><span><i class='fa fa-arrow-up'></i> Topo</span></button>
         </a>
+    </section>
+
+    <footer class='container-fluid border-top footer-wrapper'>
+        <div class='container row'>
+            <div class='col-12 col-md'>
+                <img class='mb-2' src='./static/img/logo-coletivo-litera.png' alt='' width='24' height='24'>
+                <small class='d-block mb-3 text-body-secondary'>&copy; Coletivo Litera 2024</small>
+            </div>
+            <div class='col-6 col-md'>
+                <h5>Publicações</h5>
+                <ul class='list-unstyled text-small'>
+                    <li class='mb-1'><a class='link-light text-decoration-none' href='#'>Edifício Litera</a></li>
+                    <li class='mb-1'><a class='link-light text-decoration-none' href='#'>Doze Dias Doze</a></li>
+                </ul>
+            </div>
+            <div class='col-6 col-md'>
+                <h5>Sobre</h5>
+                <ul class='list-unstyled text-small'>
+                    <li class='mb-1'><a class='link-light text-decoration-none' href='#'>A Idealizadora</a></li>
+                    <li class='mb-1'><a class='link-light text-decoration-none' href='#'>O Coletivo Litera</a></li>
+                    <li class='mb-1'><a class='link-light text-decoration-none' href='#'>A Equipe</a></li>
+                </ul>
+            </div>
+            <div class='col-6 col-md'>
+                <h5>Fale Conosco</h5>
+                <ul class='list-unstyled text-small'>
+                    <li class='mb-1'><a class='link-light text-decoration-none' href='#'>Contato</a></li>
+                    <a href='#' class='btn btn-success mx-2'>Instagram</a>
+                    <a href='#' class='btn btn-success mx-2'>Rede Social X</a>
+                </ul>
+            </div>
+        </div>
     </footer>
 
     <script type='text/javascript' src='./static/js/text.js'></script>

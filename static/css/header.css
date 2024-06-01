@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
-body {
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(-45deg, #18453B, #18453B, #18453B, #18453B, #18453B, #18453B);
-}
-
 .header-wrapper {
   width: 100%;
   height: 100vh;
@@ -22,12 +16,16 @@ body {
 }
 
 main {
-  color: #fff;
+  color: #000000;
   font-family: 'Montserrat';
 }
 
 .text-white {
-  color: #fff;
+  color: #ffffff;
+}
+
+.text-black {
+  color: #000000;
 }
 
 .text-justify {

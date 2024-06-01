@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-45deg, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+}
+
 @media (max-width:1000px) {
 
     .company-area {

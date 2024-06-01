@@ -12,3 +12,15 @@
     width: 100px;
     height: 150px;
 }
+
+.footer-wrapper {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(-45deg, #ff0000, #f0ff00, #0fff00, #0046ce, #fb7607, #9900c9);
+    color: #ffffff;
+    background-size: 400% 400%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
