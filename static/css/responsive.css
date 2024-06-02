@@ -55,3 +55,32 @@ body {
     }
 
 }
+
+@media (max-width: 500px) {
+
+    .img-escritor {
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .img-perfil {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+
+    .img-livro {
+        width: 100px;
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .box-filme {
+        padding: 20px;
+        object-fit: contain;
+        display: block;
+        border-radius: 4%;
+    }
+
+}
