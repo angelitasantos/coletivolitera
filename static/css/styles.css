@@ -1,13 +1,13 @@
 .img-escritor {
     width: 150px;
     height: 150px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .img-perfil {
     width: 200px;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .img-livro {
