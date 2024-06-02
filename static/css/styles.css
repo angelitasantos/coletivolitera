@@ -1,21 +1,24 @@
 .img-escritor {
     width: 150px;
     height: 150px;
+    object-fit: cover;
 }
 
 .img-perfil {
     width: 200px;
     height: 200px;
+    object-fit: cover;
 }
 
 .img-livro {
     width: 100px;
     height: 150px;
+    object-fit: cover;
 }
 
 .footer-wrapper {
     width: 100%;
-    height: 300px;
+    height: 400px;
     background: linear-gradient(-45deg, #ff0000, #f0ff00, #0fff00, #0046ce, #fb7607, #9900c9);
     color: #ffffff;
     background-size: 400% 400%;
@@ -23,4 +26,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.box-filme {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    border-radius: 4%;
+}
+
+.carrosel .titulo {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2.4rem;
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
 }
